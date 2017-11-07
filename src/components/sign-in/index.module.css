@@ -1,0 +1,33 @@
+@import '@pluralsight/ps-design-system-core';
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#signIn form {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#signIn input {
+    width: 100%;
+}
+
+.submitLine {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    margin-top: var(--psLayoutSpacingXXLarge);
+    text-align: center;
+}
+
+.links a {
+    display: block;
+    margin-bottom: var(--psLayoutSpacingSmall);
+}

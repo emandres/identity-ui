@@ -1,0 +1,26 @@
+@import '@pluralsight/ps-design-system-normalize';
+@import url(https://cloud.typography.com/6966154/691568/css/fonts.css);
+@import "@pluralsight/ps-design-system-core";
+
+.bodyContent {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+input[type=text], input[type=password] {
+    border-radius: 2px;
+    border: 1px solid var(--psColorsGray01);
+    color: var(--psColorsGray02);
+    font-size: var(--psTypeFontSizeSmall);
+    font-weight: var(--psTypeFontWeightBook);
+    margin-top: var(--psLayoutSpacingXXSmall);
+    margin-bottom: var(--psLayoutSpacingLarge);
+    padding: var(--psLayoutSpacingXSmall) var(--psLayoutSpacingMedium);
+}
+
+label {
+    color: var(--psColorsGray03);
+    font-size: var(--psTypeFontSizeXSmall);
+    font-weight: var(--psTypeFontWeightMedium);
+}
